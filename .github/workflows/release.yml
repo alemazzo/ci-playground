@@ -2,7 +2,7 @@ name: Test and create a release
 on:
   push:
     branches:
-      - main
+      - 'main'
     branches-ignore:
       - 'renovate/**'
     paths-ignore:
