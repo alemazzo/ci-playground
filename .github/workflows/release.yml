@@ -19,11 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.1
-        with:
-          fetch-depth: 0
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm i 
+          npm install
           npx semantic-release
