@@ -12,5 +12,7 @@
     "semantic-release": "^23.0.2"
   },
   "private": true,
-  "branches": ["main"]
+  "release": {
+    "branches": ["main"]
+  }
 }
