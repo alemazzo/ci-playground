@@ -2,14 +2,7 @@ name: Test and create a release
 on:
   push:
     branches:
-      - 'main'
-    branches-ignore:
-      - 'renovate/**'
-    paths-ignore:
-      - 'CHANGELOG.md'
-      - 'LICENSE'
-  pull_request:
-  workflow_dispatch:
+      - main
 
 jobs:
   release:
