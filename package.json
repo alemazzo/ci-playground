@@ -10,5 +10,30 @@
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^23.0.2"
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
   }
 }
