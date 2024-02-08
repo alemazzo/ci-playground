@@ -9,38 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "semantic-release-preconfigured-conventional-commits": "1.1.85"
-  },
-  "engines": {
-    "node": "20.11"
-  },
-  "private": true,
-  "release": {
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      "@semantic-release/changelog",
-      "@semantic-release/git"
-    ],
-    "branches": [
-      "main"
-    ]
+    "semantic-release": "^23.0.2"
   }
 }
