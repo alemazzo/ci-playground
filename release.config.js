@@ -1,4 +1,4 @@
-var config = require('semantic-release-preconfigured-conventional-commits');
+var config = require('semantic-release');
 config.plugins.push(
     [
         "@semantic-release/commit-analyzer",
