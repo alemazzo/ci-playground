@@ -11,6 +11,7 @@
   "devDependencies": {
     "semantic-release": "^23.0.2"
   },
+  "private": true,
   "release": {
     "branches": ["main"],
     "plugins": [
@@ -26,12 +27,7 @@
           "preset": "conventionalcommits"
         }
       ],
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
+      "@semantic-release/changelog",
       "@semantic-release/github",
       "@semantic-release/git"
     ]
