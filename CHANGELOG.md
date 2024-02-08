@@ -1,3 +1,11 @@
+## [3.1.0](https://github.com/alemazzo/ci-playground/compare/v3.0.0...v3.1.0) (2024-02-08)
+
+
+### Features
+
+* added feature ([a5e43bb](https://github.com/alemazzo/ci-playground/commit/a5e43bbef85965889e1ac7ecd688d971fae015c0))
+* added feature ([9d6867c](https://github.com/alemazzo/ci-playground/commit/9d6867cad66ab30e51ece7ebc379b0a8fc1fd9ad))
+
 ## [3.0.0](https://github.com/alemazzo/ci-playground/compare/v2.0.0...v3.0.0) (2024-02-08)
 
 
