@@ -1,5 +1,6 @@
-var config = require('semantic-release');
-config.plugins.push(
+{
+  "branches": ["master", "next"],
+  "plugins": [
     [
         "@semantic-release/commit-analyzer",
         {
@@ -12,7 +13,6 @@ config.plugins.push(
             "preset": "conventionalcommits"
         }
     ],
-    "@semantic-release/release-notes-generator",
     [
         "@semantic-release/npm",
         {
@@ -20,8 +20,7 @@ config.plugins.push(
         }
     ],
     "@semantic-release/changelog",
-    "@semantic-release/git",
-    "@semantic-release/github"
-)
-config.branches = ["main"]
-module.exports = config
+    "@semantic-release/github",
+    "@semantic-release/git"
+  ]
+}
