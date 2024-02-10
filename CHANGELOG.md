@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/alemazzo/ci-playground/compare/v1.0.0...v2.0.0) (2024-02-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* added breaking change"
+
+### Features
+
+* added breaking change" ([b6faee1](https://github.com/alemazzo/ci-playground/commit/b6faee17dd4011f01dfba31e05a7c379bd0bc836))
+
 ## 1.0.0 (2024-02-08)
 
 
